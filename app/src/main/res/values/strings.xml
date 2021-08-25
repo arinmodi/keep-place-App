@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Keep Place</string>
+    <string name="google_maps_api_key">AIzaSyCZAXX9hFTK_POc4Rsk9WYNtDzhoLq61L0</string>
+    <string name="mapbox_access_token">pk.eyJ1IjoiYXJpbm1vZGkiLCJhIjoiY2txcTM5aW1iMG43YzJ3cGJ0a2Z4OXlrayJ9.GGSeNvwgFmWNkZhmzauRYQ</string>
+</resources>

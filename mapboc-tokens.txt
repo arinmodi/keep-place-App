@@ -1,0 +1,3 @@
+MapBox Token
+public token : pk.eyJ1IjoiYXJpbm1vZGkiLCJhIjoiY2txcTM5aW1iMG43YzJ3cGJ0a2Z4OXlrayJ9.GGSeNvwgFmWNkZhmzauRYQ
+private token : sk.eyJ1IjoiYXJpbm1vZGkiLCJhIjoiY2txcTQ1bGkzMDlvNTJybWV5YmFmaHF4bSJ9.7GX6jOcAQkRGXpUNHd4uJw

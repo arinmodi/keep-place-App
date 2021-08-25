@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.See_Map">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_map"
+        android:layout_width="match_parent"
+        android:background="@color/colorPrimary"
+        android:theme="@style/CustomToolBar"
+        android:layout_height="?attr/actionBarSize" />
+
+    <com.mapbox.mapboxsdk.maps.MapView
+        android:layout_below="@id/toolbar_map"
+        android:id="@+id/mapView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/start_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="5dp"
+        android:layout_alignParentBottom="true"
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:layout_marginBottom="30dp"
+        android:layout_marginHorizontal="20dp">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Start Navigation"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/mapbox_plugins_white"
+            android:textSize="16dp"
+            android:textFontWeight="900"
+            android:gravity="center"
+            android:textAllCaps="true"
+            android:paddingVertical="10dp" />
+
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>
